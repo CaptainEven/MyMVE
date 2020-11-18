@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.18/Modules/FindJPEG.cmake
+D:/CMake/share/cmake-3.18/Modules/FindPNG.cmake
+D:/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.18/Modules/FindTIFF.cmake
+D:/CMake/share/cmake-3.18/Modules/FindZLIB.cmake
+D:/CMake/share/cmake-3.18/Modules/SelectLibraryConfigurations.cmake
+F:/MVE/libs/mve/CMakeLists.txt

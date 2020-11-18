@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+D:/CMake/share/cmake-3.18/Modules/FindGLEW.cmake
+D:/CMake/share/cmake-3.18/Modules/FindOpenGL.cmake
+D:/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake
+F:/MVE/3rdparty/lib/cmake/glew/CopyImportedTargetProperties.cmake
+F:/MVE/3rdparty/lib/cmake/glew/glew-config.cmake
+F:/MVE/3rdparty/lib/cmake/glew/glew-targets-debug.cmake
+F:/MVE/3rdparty/lib/cmake/glew/glew-targets-release.cmake
+F:/MVE/3rdparty/lib/cmake/glew/glew-targets.cmake
+F:/MVE/libs/ogl/CMakeLists.txt

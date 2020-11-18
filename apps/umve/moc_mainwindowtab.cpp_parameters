@@ -1,0 +1,11 @@
+-IF:/MVE/libs
+-DWIN32_LEAN_AND_MEAN
+-DVC_EXTRALEAN
+-DNOMINMAX
+-D_CRT_SECURE_NO_WARNINGS
+-D__SSE2__
+-D__SSE3__
+-DWIN32
+-o
+F:/MVE/mve_build/apps/umve/moc_mainwindowtab.cpp
+F:/MVE/apps/umve/mainwindowtab.h

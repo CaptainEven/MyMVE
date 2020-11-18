@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\MVE\apps\umve\batchoperations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\fshelpers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\glwidget.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\guihelpers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\jobqueue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\mainwindow.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\mainwindowtab.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_aabb_creator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_axis_renderer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_dm_triangulate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_frusta_base.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_frusta_scene_renderer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_mesh_renderer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_offscreen_renderer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_plane_creator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_rephotographer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_selection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_sfm_renderer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_sphere_creator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\addin_state.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\camera_sequence.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_addins\mesh_list.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_inspect\addin_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scene_inspect\scene_inspect.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\scenemanager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\sceneoverview.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\selectedview.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\umve.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\viewinspect\imageinspector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\viewinspect\imageoperations.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\viewinspect\scrollimage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\viewinspect\tonemapping.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\apps\umve\viewinspect\viewinspect.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_batchoperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_clickimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_dlldefines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_fshelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_glwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_guihelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_jobqueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_mainwindowtab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_aabb_creator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_axis_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_dm_triangulate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_frusta_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_frusta_scene_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_mesh_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_offscreen_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_plane_creator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_rephotographer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_selection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_sfm_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_sphere_creator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_addin_state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_camera_sequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_addins\moc_mesh_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_inspect\moc_addin_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\scene_inspect\moc_scene_inspect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_scenemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_sceneoverview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\moc_selectedview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\viewinspect\moc_imageinspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\viewinspect\moc_imageoperations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\viewinspect\moc_scrollimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\viewinspect\moc_tonemapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\viewinspect\moc_viewinspect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\MVE\mve_build\apps\umve\qrc_umve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_batchoperations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_clickimage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_dlldefines.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_fshelpers.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_glwidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_guihelpers.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_jobqueue.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_mainwindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_mainwindowtab.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_aabb_creator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_axis_renderer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_base.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_dm_triangulate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_frusta_base.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_frusta_scene_renderer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_mesh_renderer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_offscreen_renderer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_plane_creator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_rephotographer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_selection.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_sfm_renderer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_sphere_creator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_addin_state.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_camera_sequence.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\c024801f4a4d778555a4e6735e6c2fac\moc_mesh_list.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\28ce581bec58e23ac26199e1fd48d026\moc_addin_manager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\28ce581bec58e23ac26199e1fd48d026\moc_scene_inspect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_scenemanager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_sceneoverview.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\a788545e0445db800c223e22e02a95e9\moc_selectedview.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\f3fceb59d6e9c6d326cab8fc220f9f39\moc_imageinspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\f3fceb59d6e9c6d326cab8fc220f9f39\moc_imageoperations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\f3fceb59d6e9c6d326cab8fc220f9f39\moc_scrollimage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\f3fceb59d6e9c6d326cab8fc220f9f39\moc_tonemapping.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\mve_build\CMakeFiles\f3fceb59d6e9c6d326cab8fc220f9f39\moc_viewinspect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\MVE\apps\umve\umve.qrc" />
+    <CustomBuild Include="F:\MVE\apps\umve\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1098A8F4-EF73-3171-B135-371FAFD9BE4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1DFFC78B-C718-3444-B22A-C398FD08183E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

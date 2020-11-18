@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{86F23D52-580B-3325-BE22-244FB614C3C4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\MVE\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\MVE\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\MVE\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\MVE\libs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\MVE\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/MVE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -SF:/MVE -BF:/MVE/mve_build --check-stamp-file F:/MVE/mve_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\MVE\mve_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/MVE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -SF:/MVE -BF:/MVE/mve_build --check-stamp-file F:/MVE/mve_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\MVE\mve_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/MVE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -SF:/MVE -BF:/MVE/mve_build --check-stamp-file F:/MVE/mve_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\MVE\mve_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/MVE/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -SF:/MVE -BF:/MVE/mve_build --check-stamp-file F:/MVE/mve_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.18\Modules\CPack.cmake;D:\CMake\share\cmake-3.18\Modules\CPackComponent.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\FindOpenMP.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.18\Templates\CPackConfig.cmake.in;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;F:\MVE\mve_build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\MVE\mve_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\MVE\mve_build\ZERO_CHECK.vcxproj">
+      <Project>{969AC39C-A636-3ACE-9F77-97A95B55FC92}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\bundle2pset\bundle2pset.vcxproj">
+      <Project>{B03E9A52-E89B-3E30-BD94-5CA51A9D74B1}</Project>
+      <Name>bundle2pset</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\dmrecon\dmrecon.vcxproj">
+      <Project>{2FD301CF-3A11-32A2-BC46-1A114AB673B1}</Project>
+      <Name>dmrecon</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\featurerecon\featurerecon.vcxproj">
+      <Project>{F0A6AF77-1C22-333B-A6EE-6BDE23D32F71}</Project>
+      <Name>featurerecon</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\fssrecon\fssrecon.vcxproj">
+      <Project>{7E56CDB8-CE44-37FD-A8DA-E24611D0411B}</Project>
+      <Name>fssrecon</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\makescene\makescene.vcxproj">
+      <Project>{C269C534-0DF9-3089-840B-0E8EBD622252}</Project>
+      <Name>makescene</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\mesh2pset\mesh2pset.vcxproj">
+      <Project>{D946A4FF-EAE1-3FEE-959E-A4B4A1519D08}</Project>
+      <Name>mesh2pset</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\meshalign\meshalign.vcxproj">
+      <Project>{670E10DE-ED8C-3F58-A4D5-EC8AF4CD2378}</Project>
+      <Name>meshalign</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\meshclean\meshclean.vcxproj">
+      <Project>{19C4D03B-CE63-3CFD-A3C0-E14824C4D222}</Project>
+      <Name>meshclean</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\meshconvert\meshconvert.vcxproj">
+      <Project>{BC699D66-5FA8-36D6-8B5F-F9549A7925B8}</Project>
+      <Name>meshconvert</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\libs\mve\mve.vcxproj">
+      <Project>{2986CCFD-EDB1-379D-9FF9-AFB03D146BDA}</Project>
+      <Name>mve</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\libs\dmrecon\mve_dmrecon.vcxproj">
+      <Project>{864100DD-6FE8-3F19-BE87-00585AC7EF77}</Project>
+      <Name>mve_dmrecon</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\libs\fssr\mve_fssr.vcxproj">
+      <Project>{24D41B76-EBE0-34E6-AD7E-67141F86F90D}</Project>
+      <Name>mve_fssr</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\libs\math\mve_math.vcxproj">
+      <Project>{7793D768-3616-3F28-B32B-9A77CFE49D6D}</Project>
+      <Name>mve_math</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\libs\ogl\mve_ogl.vcxproj">
+      <Project>{3B087C96-24A6-3AAB-8482-A542AAAF69DA}</Project>
+      <Name>mve_ogl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\libs\sfm\mve_sfm.vcxproj">
+      <Project>{01175087-1BD0-356E-86E1-C3C3B195829E}</Project>
+      <Name>mve_sfm</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\libs\util\mve_util.vcxproj">
+      <Project>{F5889009-109D-3156-9D53-B7535A401761}</Project>
+      <Name>mve_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\prebundle\prebundle.vcxproj">
+      <Project>{65ED99CC-EB8D-347D-B878-916954D52A01}</Project>
+      <Name>prebundle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\scene2pset\scene2pset.vcxproj">
+      <Project>{C8C138DB-517B-39D4-8C15-A7DE8B1CF9C8}</Project>
+      <Name>scene2pset</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\sceneupgrade\sceneupgrade.vcxproj">
+      <Project>{9851533C-6311-3FC2-A2D6-07A3192BFD8D}</Project>
+      <Name>sceneupgrade</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\sfmrecon\sfmrecon.vcxproj">
+      <Project>{7327003A-E40D-3904-BBFE-906EDD50E1C8}</Project>
+      <Name>sfmrecon</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\MVE\mve_build\apps\umve\umve.vcxproj">
+      <Project>{56C3608A-CB79-3F19-9CE7-4A1B63F2A1D6}</Project>
+      <Name>umve</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
